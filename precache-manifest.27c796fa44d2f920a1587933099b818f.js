@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fc5aa3801c654a388cfb87d514c2ab86",
+    "revision": "bccdbee8b680c4d8e96f3fa1aa0226b1",
     "url": "/webgl-bands/index.html"
   },
   {
-    "revision": "b09da754ada5db573042",
-    "url": "/webgl-bands/static/css/main.fec001e1.chunk.css"
+    "revision": "d76dedab20b85a4edfb2",
+    "url": "/webgl-bands/static/css/main.3b47e256.chunk.css"
   },
   {
     "revision": "6ee865b6e06742368130",
     "url": "/webgl-bands/static/js/2.466b5f65.chunk.js"
   },
   {
-    "revision": "b09da754ada5db573042",
+    "revision": "d76dedab20b85a4edfb2",
     "url": "/webgl-bands/static/js/main.97f7c133.chunk.js"
   },
   {
