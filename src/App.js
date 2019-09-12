@@ -1,4 +1,3 @@
-import ReactDOM from 'react-dom'
 import * as THREE from 'three'
 import React, { useState, useRef } from 'react'
 import { apply, Canvas, useRender } from 'react-three-fiber'
