@@ -17,7 +17,7 @@ function Fatline() {
   // Calculate wiggly curve
   const [curve] = useState(() => {
     let pos = new THREE.Vector3(30 - 60 * Math.random(), -5, 10 - 20 * Math.random())
-    return new Array(30).fill().map(() => pos.add(new THREE.Vector3(2 - Math.random() * 4, 4 - Math.random() * 2, 5 - Math.random() * 10)).clone())
+    return new Array(43).fill().map(() => pos.add(new THREE.Vector3(2 - Math.random() * 4, 4 - Math.random() * 2, 5 - Math.random() * 10)).clone())
   })
   // Hook into the render loop and decrease the materials dash-offset
   useRender(() => (material.current.uniforms.dashOffset.value -= 0.0005))
@@ -57,7 +57,7 @@ function App() {
       </Canvas>
       <a href="https://github.com/saintpepsicola" class="bottom-right" children="Original / Shivam Solandres" />
 
-      <a href="#" class="top-left" children="  Fastest | Full 3D | 45% Battery effecient | Optical Stablers | Sweeter than Mocha Frappe" />
+      <a href="#" class="top-left" children="  Fastest | Full 3D | 45% Battery effecient | Optical Stablers | Sweeter than a Mocha Frappe" />
       <span class="header">
         WebGL Canvas
       </span>
