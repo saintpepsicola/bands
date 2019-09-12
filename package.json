@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "http://saintpepsicola.github.io/webgl-bands",
+  "homepage": "http://saintpepsicola.github.io/bands",
   "private": true,
   "dependencies": {
     "react": "^16.9.0",
