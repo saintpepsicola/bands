@@ -46,7 +46,7 @@ span.header {
   width: 500px;
   top: 50%;
   transform: translate3d(0, -50%, 0);
-  left: 1em;
+  left: 0.5em;
   font-size: 8em;
   line-height: 1em;
 }
