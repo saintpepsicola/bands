@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/webgl-bands/static/css/main.fec001e1.chunk.css",
+    "main.js": "/webgl-bands/static/js/main.97f7c133.chunk.js",
+    "main.js.map": "/webgl-bands/static/js/main.97f7c133.chunk.js.map",
+    "runtime~main.js": "/webgl-bands/static/js/runtime~main.154e172a.js",
+    "runtime~main.js.map": "/webgl-bands/static/js/runtime~main.154e172a.js.map",
+    "static/js/2.466b5f65.chunk.js": "/webgl-bands/static/js/2.466b5f65.chunk.js",
+    "static/js/2.466b5f65.chunk.js.map": "/webgl-bands/static/js/2.466b5f65.chunk.js.map",
+    "index.html": "/webgl-bands/index.html",
+    "precache-manifest.0a6b9d3ee53cbdebdafc6054e979954a.js": "/webgl-bands/precache-manifest.0a6b9d3ee53cbdebdafc6054e979954a.js",
+    "service-worker.js": "/webgl-bands/service-worker.js",
+    "static/css/main.fec001e1.chunk.css.map": "/webgl-bands/static/css/main.fec001e1.chunk.css.map"
+  }
+}
