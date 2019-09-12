@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/bands/static/css/main.3b47e256.chunk.css",
-    "main.js": "/bands/static/js/main.40533c07.chunk.js",
-    "main.js.map": "/bands/static/js/main.40533c07.chunk.js.map",
+    "main.js": "/bands/static/js/main.9f2df6bd.chunk.js",
+    "main.js.map": "/bands/static/js/main.9f2df6bd.chunk.js.map",
     "runtime~main.js": "/bands/static/js/runtime~main.6da8c17b.js",
     "runtime~main.js.map": "/bands/static/js/runtime~main.6da8c17b.js.map",
     "static/js/2.466b5f65.chunk.js": "/bands/static/js/2.466b5f65.chunk.js",
     "static/js/2.466b5f65.chunk.js.map": "/bands/static/js/2.466b5f65.chunk.js.map",
     "index.html": "/bands/index.html",
-    "precache-manifest.89081e4a2a6f1e4eb07a4584f77f868a.js": "/bands/precache-manifest.89081e4a2a6f1e4eb07a4584f77f868a.js",
+    "precache-manifest.fb53a47fbd60f33a8ebd4fb876ba2d84.js": "/bands/precache-manifest.fb53a47fbd60f33a8ebd4fb876ba2d84.js",
     "service-worker.js": "/bands/service-worker.js",
     "static/css/main.3b47e256.chunk.css.map": "/bands/static/css/main.3b47e256.chunk.css.map"
   }
