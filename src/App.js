@@ -1,9 +1,10 @@
 import * as THREE from 'three'
 import React, { useState, useRef } from 'react'
-import { apply, Canvas, useRender } from 'react-three-fiber'
+import { extend, Canvas, useRender } from 'react-three-fiber'
 import * as meshline from 'three.meshline'
+import { useSpring, animated } from 'react-spring'
 
-apply(meshline)
+extend(meshline)
 
 const numLines = 100
 const lines = new Array(numLines).fill()
@@ -39,7 +40,7 @@ function Scene() {
   let group = useRef()
   let theta = 0
   // Hook into the render loop and rotate the scene a bit
-  useRender(() => group.current.rotation.set(0, 5 * Math.sin(THREE.Math.degToRad((theta += 0.02))), 0))
+  // useRender(() => group.current.rotation.set(0, 5 * Math.sin(THREE.Math.degToRad((theta += 0.02))), 0))
   return (
     <group ref={group}>
       {lines.map((_, index) => (
@@ -50,19 +51,36 @@ function Scene() {
 }
 
 function App() {
-  return (
-    <div class="main">
-      <Canvas style={{ background: '#333' }} camera={{ position: [0, 50, 10], fov: 75 }}>
-        <Scene />
-      </Canvas>
-      <a href="https://github.com/saintpepsicola" class="bottom-right" children="Original / Shivam Solandres" />
+  const props = useSpring({ config: { duration: 2500 }, background: '#30304e', from: { background: '#333' } })
+  // const props = useSpring({
+  //   config: { duration: 2500 },
+  //   from: { background: '#333' },
+  //   to: async next => {
+  //     while (1) {
+  //       await next({ background: 'lightpink' })
+  //       await next({ background: 'lightcoral' })
+  //       await next({ background: '#333' })
+  //       await next({ background: 'lightseagreen' })
+  //       await next({ background: 'lightskyblue' })
+  //       await next({ background: 'lightslategrey' })
+  //     }
+  //   },
+  // })
 
-      <a href="#" class="top-left" children="  Fastest | Full 3D | 45% Battery effecient | Optical Stablers | Sweeter than a Mocha Frappe" />
-      <span class="header">
+  const AnimatedDonut = animated(Canvas)
+
+  return (
+    <>
+      <AnimatedDonut style={props} camera={{ position: [0, 50, 10], fov: 75 }}>
+        <Scene />
+      </AnimatedDonut>
+      <a href="https://github.com/saintpepsicola" className="bottom-right" children="Original / Shivam Solandres" />
+      <a href="#" className="top-left" children="  Fastest | Full 3D | 45% Battery effecient | Optical Stablers | Sweeter than a Mocha Frappe" />
+      <span className="header">
         WebGL Canvas
       </span>
 
-    </div>
+    </>
   )
 }
 
