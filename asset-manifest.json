@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/webgl-bands/static/css/main.3b47e256.chunk.css",
-    "main.js": "/webgl-bands/static/js/main.97f7c133.chunk.js",
-    "main.js.map": "/webgl-bands/static/js/main.97f7c133.chunk.js.map",
-    "runtime~main.js": "/webgl-bands/static/js/runtime~main.154e172a.js",
-    "runtime~main.js.map": "/webgl-bands/static/js/runtime~main.154e172a.js.map",
-    "static/js/2.466b5f65.chunk.js": "/webgl-bands/static/js/2.466b5f65.chunk.js",
-    "static/js/2.466b5f65.chunk.js.map": "/webgl-bands/static/js/2.466b5f65.chunk.js.map",
-    "index.html": "/webgl-bands/index.html",
-    "precache-manifest.27c796fa44d2f920a1587933099b818f.js": "/webgl-bands/precache-manifest.27c796fa44d2f920a1587933099b818f.js",
-    "service-worker.js": "/webgl-bands/service-worker.js",
-    "static/css/main.3b47e256.chunk.css.map": "/webgl-bands/static/css/main.3b47e256.chunk.css.map"
+    "main.css": "/bands/static/css/main.3b47e256.chunk.css",
+    "main.js": "/bands/static/js/main.40533c07.chunk.js",
+    "main.js.map": "/bands/static/js/main.40533c07.chunk.js.map",
+    "runtime~main.js": "/bands/static/js/runtime~main.6da8c17b.js",
+    "runtime~main.js.map": "/bands/static/js/runtime~main.6da8c17b.js.map",
+    "static/js/2.466b5f65.chunk.js": "/bands/static/js/2.466b5f65.chunk.js",
+    "static/js/2.466b5f65.chunk.js.map": "/bands/static/js/2.466b5f65.chunk.js.map",
+    "index.html": "/bands/index.html",
+    "precache-manifest.497be24ce1a62c5ce4409f1b2dd3db33.js": "/bands/precache-manifest.497be24ce1a62c5ce4409f1b2dd3db33.js",
+    "service-worker.js": "/bands/service-worker.js",
+    "static/css/main.3b47e256.chunk.css.map": "/bands/static/css/main.3b47e256.chunk.css.map"
   }
 }
