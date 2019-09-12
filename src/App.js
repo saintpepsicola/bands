@@ -17,7 +17,7 @@ function Fatline() {
   // Calculate wiggly curve
   const [curve] = useState(() => {
     let pos = new THREE.Vector3(30 - 60 * Math.random(), -5, 10 - 20 * Math.random())
-    return new Array(55).fill().map(() => pos.add(new THREE.Vector3(2 - Math.random() * 4, 4 - Math.random() * 2, 5 - Math.random() * 10)).clone())
+    return new Array(33).fill().map(() => pos.add(new THREE.Vector3(2 - Math.random() * 4, 4 - Math.random() * 2, 5 - Math.random() * 10)).clone())
   })
   // Hook into the render loop and decrease the materials dash-offset
   useRender(() => (material.current.uniforms.dashOffset.value -= 0.0005))
